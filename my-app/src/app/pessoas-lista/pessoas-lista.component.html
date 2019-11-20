@@ -1,0 +1,18 @@
+
+<p><b> Listagem JSON </b></p>
+
+<!-- {{pessoas | json}} -->
+<table>
+    <tr>
+      <th> ID </th>
+      <th> Name </th>
+      <th> Age </th>
+      <th> Gender </th>
+    </tr>
+    <tr *ngFor="let pessoa of pessoas">
+      <td> {{pessoa.id}} </td>
+      <td> {{pessoa.name}} </td>
+      <td> {{pessoa.age}} </td>
+      <td> {{pessoa.gender}} </td>
+    </tr>
+  </table>

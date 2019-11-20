@@ -1,0 +1,14 @@
+<p><b> {{titulo()}} </b></p>
+
+<table>
+  <tr>
+    <th> ID </th>
+    <th> Marca </th>
+    <th> Modelo </th>
+  </tr>
+  <tr *ngFor="let carro of carros">
+    <td> {{carro.id}} </td>
+    <td> {{carro.marca}} </td>
+    <td> {{carro.modelo}} </td>
+  </tr>
+</table>
