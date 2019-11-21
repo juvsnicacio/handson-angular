@@ -8,6 +8,9 @@ import { PessoasListaComponent } from './pessoas-lista/pessoas-lista.component';
 import { PessoasService } from './services/pessoas.service';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { DepartamentosListaComponent } from './departamentos-lista/departamentos-lista.component';
+import { DepartamentosDetalhesComponent } from './departamentos-detalhes/departamentos-detalhes.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
     PrimeiroComponenteComponent,
     PessoasListaComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    DepartamentosListaComponent,
+    DepartamentosDetalhesComponent,
+
   ],
   imports: [
     BrowserModule,

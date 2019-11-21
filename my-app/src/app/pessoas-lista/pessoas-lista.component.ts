@@ -8,11 +8,11 @@ import { PessoasService } from '../services/pessoas.service';
 })
 export class PessoasListaComponent implements OnInit {
 
-  public pessoas = [];
+  public pessoas = []
   constructor(private _pessoasService: PessoasService) { }
 
   ngOnInit() {
-    this.pessoas = this._pessoasService.getPessoas();
+    this.pessoas = this._pessoasService.getPessoas()
   }
 
 }

@@ -1,0 +1,13 @@
+<br><p><b>Departamentos</b></p>
+<table>
+  <tr>
+    <th> ID </th>
+    <th> Nome </th>
+    <th> </th>
+  </tr>
+  <tr *ngFor="let departamento of departamentos">
+    <td> {{departamento.id}} </td>
+    <td> {{departamento.name}} </td>
+    <td> <button class="btn-primary" (click)="onSelect(departamento)">Detalhes</button> </td>
+  </tr>
+</table>
